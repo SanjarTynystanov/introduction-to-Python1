@@ -1,0 +1,73 @@
+ переменные и функции
+
+# name ="Sanjar "
+# # name = input("name:")
+# surname=" Tynystanov 'this is my surname' "
+# # surname = input("surname:")
+# age = 16
+# height= 172
+# this_year=2024
+# born= this_year-age
+# print(born)
+
+  # методы обьекта:
+
+# переменная.title - это функция для загловления первой буквы обьекта ;
+# переменная.upper -это функция для загловления всего обьекта;
+# переменная.lower -это функция для  всего обьекта;
+# переменная + переменная -это функция для прибовления обьектов;
+# 15 и 16 ===;
+
+# print (type(name))
+# print(type(surname))
+# print(type(age))
+# print(type(height))
+# print (surname, name , age, height)
+# print (name.title(), surname.lower())
+# print (name.title(), surname.upper())
+# print (name + surname)
+# print ("{} sdfghj {}" .format(name,surname))
+# print (f"{name} fghjk {surname}")
+#
+# number_1=10
+# number_2=12
+# print(number_1 + number_2)
+# print(number_1 - number_2)
+# print(number_1 * number_2)
+# print(number_1 // number_2)
+#
+# print(number_1 / number_2)
+# print(number_1 ** number_2)
+# print(number_1 % number_2)
+
+# print(number_1 + number_2 + 10)
+# print( (number_1 + number_2) * 2)
+# print( (number_1 + number_2) - 20)
+# print( (number_1 + number_2) // 2)
+#
+# sum_age=15+16+16+16+15+17+19+24
+# sum_students=8
+# sums=sum_age // sum_students
+# print(sums)
+
+'''
+print("2*2=",2*2)
+print("2*3=", 2*3)
+print("2*4=", 2*4)
+'''
+
+
+name=input("What your name ?")
+print("Hello",name, "nice to meet you!")
+age=input("How old are you ?")
+print("I am", age, "years old!")
+food=input("What is your favorite food ?")
+print("My favorite food is", food, "!")
+movie=input("What is your favorite movie ?")
+print("My favorite movie is", movie, "!")
+mood=input("How are you today ?")
+print("I am", mood, "today, thank you!")
+
+print("Hello your name is" , name, ", you are", age,"years old,"
+      , "your favorite food is", food,", your favorite movie is",
+      movie, ", your mood today", mood, "!" )
