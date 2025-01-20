@@ -1,0 +1,67 @@
+#Логический тип данных , условные конструкции и операторы
+#False , true, -bool
+#or, and, not
+#[start:stop:step]
+
+#операторы назначения
+# num=6
+# num+=9
+# print(num)
+
+#not
+#print(not True)
+# print(2==2)
+# print(2<4)
+# print(4==2)
+# print(4<5<7)
+# print(5==5<8)
+# print(9>6<7)
+
+# функция if elif else
+# time= "day"
+# time= "morning"
+# time= "evening"
+# time= "night"
+
+# if time == "morning":
+#     print("good morning !")
+# elif time =="day":
+#     print("good afternoon !")
+# elif time =="evening":
+#     print("good evening !")
+# else:
+#     print("hello")
+
+# name="Tom"
+# name="Sam"
+# print(name)
+
+# name="Tomas"
+# Name="Sasha"
+# NAME="Alisa"
+# name1="Bob"
+#
+# print(name1)
+# print(Name)
+# print(NAME)
+# print(name)
+
+# two=2
+# pi=3.14
+# r=10
+# a= two*pi*r*r
+# print(a)
+
+# c=-7
+# f=c*9/5+32
+# print(f)
+
+number_1=10
+number_2=12
+print(number_1 + number_2,"summa")
+print(number_1 - number_2,"minus")
+print(number_1 * number_2,"ymno")
+print(number_1 / number_2,"delenie s ostatcom")
+print(number_1 // number_2,"delenie")
+print(number_1 ** number_2,"stepen")
+print(number_1 % number_2,"procent")
