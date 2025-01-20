@@ -1,0 +1,29 @@
+from traceback import print_tb
+
+# age=input('What is your age?')
+# print(age)
+#
+# name="Tomas"
+# age="16"
+# print(f'His name is {name} ,his age is {age}')
+
+# num1=5
+# num2=2.5
+# num3=int(num2)
+# num4=float(num1)
+# print(num3, num4)
+
+num1=float(input('Ведите 1 ваше число ..'))
+num2=float(input('Ведите 2 ваше число ..'))
+summa=num1+num2
+minos=num1-num2
+umno=num1*num2
+dellenie=num1/num2
+summa1=int(num1+num2)
+minos1=int(num1-num2)
+umno1=int(num1*num2)
+dellenie1=int(num1/num2)
+print(f'{num1} + {num2} = {summa} , целая часть = {summa1} ,\n '
+      f'{num1} - {num2} = {minos}, целая часть = {minos1} ,\n '
+      f'{num1} * {num2} = {umno}, целая часть = {umno1} ,\n '
+      f'{num1} : {num2} = {dellenie}, целая часть = {dellenie1} .\n ')
