@@ -1,0 +1,61 @@
+# name=input('What is your name ?')
+# age=input('How old are you ?')
+# print(f"Hello {name} wow you are {age} years old glad to see you!")
+# print(type(name))
+# print(type(age))
+#
+# num1=int(input('your 1 number ..'))
+# num2=float(input('your 2 number ..'))
+# summa=num1+num2
+# print(summa)
+# print(type(num1))
+# print(type(num2))
+
+# price=12
+# print(type(price))
+# price= price+4.5
+# print(type(price))
+
+name=input("Как тебя зовут ?")
+print(f"Хорошо {name}. ")
+
+yesorno=input("Готов ли ты пройти тест на Кыргыза!")
+
+test1=input("Столица Кыргызстана ?")
+
+if  yesorno == "да":
+    print(test1)
+elif yesorno == "нет":
+    print("Хорошо удачи!")
+else:
+    print("")
+
+if test1 == "Бишкек":
+    print(f"Супер {name} так держать !")
+else:
+    print(f"Нет {name} ты ошибся начни сначала. 0/5")
+
+test2=input("Национальный язык ?")
+if test2 == "Кыргызский":
+    print(f"Супер {name} так держать !")
+else:
+    print(f"Нет {name} ты ошибся начни сначала. 1/5")
+
+test3=input("В какой области находиться башня 'Бурана' ?")
+if test3 == "Чуй":
+    print(f"Супер {name} так держать !")
+else:
+    print(f"Нет {name} ты ошибся начни сначала. 2/5")
+
+test4=input("Национальная вальта ?")
+if test4 == "Сом":
+    print(f"Супер {name} так держать !")
+else:
+    print(f"Нет {name} ты ошибся начни сначала. 3/5")
+
+test5=input("Сколько всего областей в стране ?")
+
+if test5 == "7":
+    print(f"Супер {name} ты настоящий кыргыз так держать ! 5/5")
+else:
+    print(f"Нет {name} ты ошибся начни сначала. 4/5")
